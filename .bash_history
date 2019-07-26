@@ -103,3 +103,75 @@ git log
 git push
 git pull
 exit
+mkdir krishna
+cd krishna
+touch k1 k2 k3 k4 k5 
+cd ..
+git status
+git add .
+git commit -m "krishna dir commit"
+git push
+git remote add krishna https://github.com/smileysree/sweety-repo.git
+git push krishna
+git pull
+git remote add krishna https://github.com/smileysree/sweety-repo.git
+git pull
+git clone https://github.com/smileysree/sweety-repo.git
+cd sweety-repo
+ls
+mkdir krishna
+touch k1 k2 k3 k4 k5
+git push 
+git push krishna
+ls
+cd krishna/
+ls
+cd ..
+git status
+git add .
+git commit -m "k1 to k5"
+git log
+git push 
+git log --oneline
+git log -3
+git log --oneline -2
+git log --author=esree34@gmail.com
+git log --author=krishna
+git log --since=2019-07-25
+git until --since=2019-07-25
+git log --until=2019-07-25
+logout
+git branch
+git init
+touch a1 a2
+ls
+git status
+git add *
+git commit -m "a1 a2 commited"
+git log
+ls
+git branch
+git branch release1
+git branch release
+git branch
+git checkout release
+cd /home
+ls
+cd /vagrant
+ls
+git init
+ls
+ls -la
+mkdir apple
+ls
+cd apple
+git init
+git branch
+cd ..
+git branch
+git init
+git branch
+cd ..
+git branch
+cd ..
+exit
